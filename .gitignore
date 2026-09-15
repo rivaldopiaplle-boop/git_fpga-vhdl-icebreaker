@@ -1,0 +1,22 @@
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.log
+
+# Archives et vidéos : trop lourdes pour Git, elles restent sur la machine
+*.zip
+*.mp4
+*.mov
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Simulation GHDL
+*.vcd
+*.ghw
+*.cf
+*.o

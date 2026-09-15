@@ -1,0 +1,105 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Mon Mar 16 09:03:17 2026
+[*]
+[dumpfile] "/home/e2025/f25piapll/VHDL/chronometre/icebreaker_tb.vcd"
+[dumpfile_mtime] "Mon Mar 16 09:02:28 2026"
+[dumpfile_size] 454550
+[savefile] "/home/e2025/f25piapll/VHDL/chronometre/layout.gtkw"
+[timestart] 0
+[size] 1920 1006
+[pos] 28 0
+*-44.400002 51300000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] icebreaker_tb.
+[treeopen] icebreaker_tb.icebreaker_0.
+[sst_width] 275
+[signals_width] 243
+[sst_expanded] 1
+[sst_vpaned_height] 335
+@28
+icebreaker_tb.icebreaker_0.btn1
+icebreaker_tb.icebreaker_0.btn2
+icebreaker_tb.icebreaker_0.btn3
+icebreaker_tb.icebreaker_0.btn_n
+icebreaker_tb.icebreaker_0.ce
+icebreaker_tb.icebreaker_0.clk
+icebreaker_tb.icebreaker_0.clk_count
+icebreaker_tb.icebreaker_0.clk_sym_1s
+icebreaker_tb.icebreaker_0.compteur0.ce
+icebreaker_tb.icebreaker_0.compteur0.clk
+@22
+icebreaker_tb.icebreaker_0.compteur0.count[7:0]
+icebreaker_tb.icebreaker_0.compteur0.count_int[7:0]
+@28
+icebreaker_tb.icebreaker_0.compteur0.raz
+icebreaker_tb.icebreaker_0.compteur0.reset
+@22
+icebreaker_tb.icebreaker_0.count[7:0]
+icebreaker_tb.icebreaker_0.count_split0.din[7:0]
+icebreaker_tb.icebreaker_0.count_split0.lsb_nibble[3:0]
+icebreaker_tb.icebreaker_0.count_split0.msb_nibble[3:0]
+icebreaker_tb.icebreaker_0.count_split0.result2[7:0]
+icebreaker_tb.icebreaker_0.count_split0.result[7:0]
+@28
+icebreaker_tb.icebreaker_0.dash
+@22
+icebreaker_tb.icebreaker_0.dec_sev_seg0.conv[6:0]
+icebreaker_tb.icebreaker_0.dec_sev_seg0.din[3:0]
+icebreaker_tb.icebreaker_0.dec_sev_seg0.dout[6:0]
+@28
+icebreaker_tb.icebreaker_0.div_freq0.clk
+@22
+icebreaker_tb.icebreaker_0.div_freq0.count_int[23:0]
+@28
+icebreaker_tb.icebreaker_0.div_freq0.fs
+icebreaker_tb.icebreaker_0.div_freq0.fs_sym
+icebreaker_tb.icebreaker_0.div_freq0.reset
+icebreaker_tb.icebreaker_0.div_freq1.clk
+@22
+icebreaker_tb.icebreaker_0.div_freq1.count_int[23:0]
+@28
+icebreaker_tb.icebreaker_0.div_freq1.fs_sym
+icebreaker_tb.icebreaker_0.div_freq1.reset
+icebreaker_tb.icebreaker_0.fs_255s
+icebreaker_tb.icebreaker_0.led1
+icebreaker_tb.icebreaker_0.led2
+icebreaker_tb.icebreaker_0.led3
+icebreaker_tb.icebreaker_0.led4
+@22
+icebreaker_tb.icebreaker_0.lsb_nibble[3:0]
+icebreaker_tb.icebreaker_0.msb_nibble[3:0]
+icebreaker_tb.icebreaker_0.mux0.e0[3:0]
+icebreaker_tb.icebreaker_0.mux0.e1[3:0]
+icebreaker_tb.icebreaker_0.mux0.s[3:0]
+@28
+icebreaker_tb.icebreaker_0.mux0.sel
+@22
+icebreaker_tb.icebreaker_0.nibble[3:0]
+@28
+icebreaker_tb.icebreaker_0.p1a1
+icebreaker_tb.icebreaker_0.p1a2
+icebreaker_tb.icebreaker_0.p1a3
+icebreaker_tb.icebreaker_0.p1a4
+icebreaker_tb.icebreaker_0.p1a7
+icebreaker_tb.icebreaker_0.p1a8
+icebreaker_tb.icebreaker_0.p1a9
+icebreaker_tb.icebreaker_0.p1a10
+icebreaker_tb.icebreaker_0.raz
+icebreaker_tb.icebreaker_0.reset
+@22
+icebreaker_tb.icebreaker_0.sev_seg[6:0]
+@28
+icebreaker_tb.icebreaker_0.state_machine0.btn_init
+icebreaker_tb.icebreaker_0.state_machine0.btn_pause
+icebreaker_tb.icebreaker_0.state_machine0.btn_run
+icebreaker_tb.icebreaker_0.state_machine0.cen
+icebreaker_tb.icebreaker_0.state_machine0.clk
+icebreaker_tb.icebreaker_0.state_machine0.etat_cr
+icebreaker_tb.icebreaker_0.state_machine0.etat_sv
+icebreaker_tb.icebreaker_0.state_machine0.led_i
+icebreaker_tb.icebreaker_0.state_machine0.led_p
+icebreaker_tb.icebreaker_0.state_machine0.led_r
+icebreaker_tb.icebreaker_0.state_machine0.raz
+icebreaker_tb.icebreaker_0.state_machine0.reset
+[pattern_trace] 1
+[pattern_trace] 0

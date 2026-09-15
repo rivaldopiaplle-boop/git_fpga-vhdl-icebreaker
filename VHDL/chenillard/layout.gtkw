@@ -1,0 +1,54 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Mon Jan 12 16:50:22 2026
+[*]
+[dumpfile] "/home/kerhoas/HUGO/vincent-kerhoas-hextra/site/content/vhdl/synthese-logique/fpga-chaine-de-developpement/chenillard/icebreaker_tb.vcd"
+[dumpfile_mtime] "Mon Jan 12 16:48:04 2026"
+[dumpfile_size] 11794120
+[savefile] "/home/kerhoas/HUGO/vincent-kerhoas-hextra/site/content/vhdl/synthese-logique/fpga-chaine-de-developpement/chenillard/layout.gtkw"
+[timestart] 2960640000000000
+[size] 1920 1033
+[pos] 1919 -26
+*-42.299999 3000529664500000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] icebreaker_tb.
+[treeopen] icebreaker_tb.icebreaker_0.
+[sst_width] 267
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 345
+@28
+icebreaker_tb.icebreaker_0.btn1
+icebreaker_tb.icebreaker_0.btn2
+icebreaker_tb.icebreaker_0.btn_n
+icebreaker_tb.icebreaker_0.ce
+icebreaker_tb.icebreaker_0.clk
+icebreaker_tb.icebreaker_0.compteur_base0.ce
+icebreaker_tb.icebreaker_0.compteur_base0.clk
+@22
+icebreaker_tb.icebreaker_0.compteur_base0.count[27:0]
+icebreaker_tb.icebreaker_0.compteur_base0.count_int[27:0]
+@28
+icebreaker_tb.icebreaker_0.compteur_base0.raz
+icebreaker_tb.icebreaker_0.compteur_base0.reset
+@8025
+icebreaker_tb.icebreaker_0.count[27:0]
+@28
+icebreaker_tb.icebreaker_0.led1
+icebreaker_tb.icebreaker_0.led2
+icebreaker_tb.icebreaker_0.led3
+icebreaker_tb.icebreaker_0.me0.ce
+icebreaker_tb.icebreaker_0.me0.clk
+@22
+icebreaker_tb.icebreaker_0.me0.count[27:0]
+@28
+icebreaker_tb.icebreaker_0.me0.etat_cr
+icebreaker_tb.icebreaker_0.me0.etat_sv
+icebreaker_tb.icebreaker_0.me0.led1
+icebreaker_tb.icebreaker_0.me0.led2
+icebreaker_tb.icebreaker_0.me0.led3
+icebreaker_tb.icebreaker_0.me0.raz
+icebreaker_tb.icebreaker_0.me0.reset
+icebreaker_tb.icebreaker_0.raz
+icebreaker_tb.icebreaker_0.reset
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,103 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Mon Mar 23 14:10:01 2026
+[*]
+[dumpfile] "/home/e2025/f25piapll/VHDL/peripherique_UART/icebreaker_tb.vcd"
+[dumpfile_mtime] "Mon Mar 23 14:09:35 2026"
+[dumpfile_size] 331372
+[savefile] "/home/e2025/f25piapll/VHDL/peripherique_UART/layout.gtkw"
+[timestart] 0
+[size] 1920 1006
+[pos] -921 -1
+*-44.400002 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] icebreaker_tb.
+[sst_width] 275
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 299
+@28
+icebreaker_tb.clk
+@22
+icebreaker_tb.data_to_send[7:0]
+@28
+icebreaker_tb.ld_t
+icebreaker_tb.ready
+icebreaker_tb.reset
+icebreaker_tb.start
+icebreaker_tb.tx
+icebreaker_tb.tx_test
+icebreaker_tb.uart_0.ce_baudrate
+icebreaker_tb.uart_0.ce_nb_bits
+icebreaker_tb.uart_0.clk
+icebreaker_tb.uart_0.compteur_baudrate0.ce
+icebreaker_tb.uart_0.compteur_baudrate0.clk
+@22
+icebreaker_tb.uart_0.compteur_baudrate0.count[7:0]
+icebreaker_tb.uart_0.compteur_baudrate0.count_int[7:0]
+@28
+icebreaker_tb.uart_0.compteur_baudrate0.raz
+icebreaker_tb.uart_0.compteur_nb_bits0.ce
+icebreaker_tb.uart_0.compteur_nb_bits0.clk
+@22
+icebreaker_tb.uart_0.compteur_nb_bits0.count[7:0]
+icebreaker_tb.uart_0.compteur_nb_bits0.count_int[7:0]
+@28
+icebreaker_tb.uart_0.compteur_nb_bits0.raz
+@22
+icebreaker_tb.uart_0.count_baudrate[7:0]
+icebreaker_tb.uart_0.count_nb_bits[7:0]
+icebreaker_tb.uart_0.data_to_send[7:0]
+@28
+icebreaker_tb.uart_0.fsm_serial0.ce_baudrate
+icebreaker_tb.uart_0.fsm_serial0.ce_nb_bits
+icebreaker_tb.uart_0.fsm_serial0.clk
+@22
+icebreaker_tb.uart_0.fsm_serial0.count_baudrate[7:0]
+icebreaker_tb.uart_0.fsm_serial0.count_nb_bits[7:0]
+@28
+icebreaker_tb.uart_0.fsm_serial0.etat_cr
+icebreaker_tb.uart_0.fsm_serial0.etat_sv
+icebreaker_tb.uart_0.fsm_serial0.id_ser
+icebreaker_tb.uart_0.fsm_serial0.raz_baudrate
+icebreaker_tb.uart_0.fsm_serial0.raz_nb_bits
+icebreaker_tb.uart_0.fsm_serial0.raz_ser
+icebreaker_tb.uart_0.fsm_serial0.ready
+icebreaker_tb.uart_0.fsm_serial0.reset
+icebreaker_tb.uart_0.fsm_serial0.ser
+icebreaker_tb.uart_0.fsm_serial0.start
+icebreaker_tb.uart_0.id_ser
+icebreaker_tb.uart_0.ld_t
+icebreaker_tb.uart_0.raz
+icebreaker_tb.uart_0.raz_baudrate
+icebreaker_tb.uart_0.raz_nb_bits
+icebreaker_tb.uart_0.raz_ser
+icebreaker_tb.uart_0.ready
+icebreaker_tb.uart_0.reg_serial0.clk
+@22
+icebreaker_tb.uart_0.reg_serial0.d_in[7:0]
+@28
+icebreaker_tb.uart_0.reg_serial0.load
+icebreaker_tb.uart_0.reg_serial0.raz
+@22
+icebreaker_tb.uart_0.reg_serial0.register_serial[9:0]
+@28
+icebreaker_tb.uart_0.reg_serial0.rotate
+icebreaker_tb.uart_0.reg_serial0.tx
+icebreaker_tb.uart_0.reg_serial0.tx_test
+icebreaker_tb.uart_0.reg_tampon0.clk
+@22
+icebreaker_tb.uart_0.reg_tampon0.d_in[7:0]
+icebreaker_tb.uart_0.reg_tampon0.d_out[7:0]
+@28
+icebreaker_tb.uart_0.reg_tampon0.load
+icebreaker_tb.uart_0.reg_tampon0.reset
+icebreaker_tb.uart_0.reset
+icebreaker_tb.uart_0.ser
+icebreaker_tb.uart_0.start
+@22
+icebreaker_tb.uart_0.tamp_out[7:0]
+@28
+icebreaker_tb.uart_0.tx
+icebreaker_tb.uart_0.tx_test
+[pattern_trace] 1
+[pattern_trace] 0
