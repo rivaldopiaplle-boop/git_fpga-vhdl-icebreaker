@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="290" viewBox="0 0 1110 290" font-family="ui-monospace, Consolas, monospace" font-size="12">
+<rect width="1110" height="290" fill="#f7f7f5"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#1d2433">Comparateur 1 bit : les LED suivent les boutons</text>
+<line x1="190" y1="76" x2="1090" y2="76" stroke="#e2e2de"/>
+<text x="16" y="65" fill="#1d2433">btn1</text>
+<path d="M190.0,61.0 L370.0,61.0 L370.0,70 L730.0,70 L730.0,52 L1090.0,52" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="110" x2="1090" y2="110" stroke="#e2e2de"/>
+<text x="16" y="99" fill="#1d2433">btn2</text>
+<path d="M190.0,95.0 L370.0,95.0 L370.0,104 L550.0,104 L550.0,86 L730.0,86 L730.0,104 L910.0,104 L910.0,86 L1090.0,86" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="144" x2="1090" y2="144" stroke="#e2e2de"/>
+<text x="16" y="133" fill="#1d2433">btn_n</text>
+<path d="M190.0,138 L280.0,138 L280.0,120 L1090.0,120" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="178" x2="1090" y2="178" stroke="#e2e2de"/>
+<text x="16" y="167" fill="#1d2433">led1</text>
+<path d="M190.0,172 L730.0,172 L730.0,154 L910.0,154 L910.0,172 L1090.0,172" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="212" x2="1090" y2="212" stroke="#e2e2de"/>
+<text x="16" y="201" fill="#1d2433">led2</text>
+<path d="M190.0,206 L280.0,206 L280.0,188 L550.0,188 L550.0,206 L910.0,206 L910.0,188 L1090.0,188" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="246" x2="1090" y2="246" stroke="#e2e2de"/>
+<text x="16" y="235" fill="#1d2433">led3</text>
+<path d="M190.0,240 L550.0,240 L550.0,222 L730.0,222 L730.0,240 L1090.0,240" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<text x="190.0" y="264" text-anchor="middle" fill="#6b7280">0 ms</text>
+<text x="370.0" y="264" text-anchor="middle" fill="#6b7280">1 ms</text>
+<text x="550.0" y="264" text-anchor="middle" fill="#6b7280">2 ms</text>
+<text x="730.0" y="264" text-anchor="middle" fill="#6b7280">3 ms</text>
+<text x="910.0" y="264" text-anchor="middle" fill="#6b7280">4 ms</text>
+<text x="1090.0" y="264" text-anchor="middle" fill="#6b7280">5 ms</text>
+</svg>

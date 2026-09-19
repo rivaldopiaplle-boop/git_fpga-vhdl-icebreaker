@@ -20,3 +20,15 @@ __pycache__/
 *.ghw
 *.cf
 *.o
+
+# Synthèse et exécutables de simulation (régénérés)
+*.asc
+*.bin
+*.json
+*.lst
+icebreaker.v
+*_tb
+
+# Sorties de tests/simuler.sh (les chronogrammes SVG, eux, sont versionnés)
+simulations/
+synthese/

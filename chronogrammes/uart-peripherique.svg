@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="290" viewBox="0 0 1110 290" font-family="ui-monospace, Consolas, monospace" font-size="12">
+<rect width="1110" height="290" fill="#f7f7f5"/>
+<text x="16" y="26" font-size="15" font-weight="bold" fill="#1d2433">Périphérique UART : trames émises sur TX (horloge du banc ralentie : 4,4 ms par bit)</text>
+<line x1="190" y1="76" x2="1090" y2="76" stroke="#e2e2de"/>
+<text x="16" y="65" fill="#1d2433">btn_n</text>
+<path d="M190.0,70 L191.8,70 L191.8,52 L1090.0,52" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="110" x2="1090" y2="110" stroke="#e2e2de"/>
+<text x="16" y="99" fill="#1d2433">btn1</text>
+<path d="M190.0,95.0 L193.6,95.0 L193.6,86 L197.2,86 L197.2,104 L1090.0,104" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="144" x2="1090" y2="144" stroke="#e2e2de"/>
+<text x="16" y="133" fill="#1d2433">btn2</text>
+<path d="M190.0,129.0 L193.6,129.0 L193.6,138 L197.2,138 L197.2,120 L233.2,120 L233.2,138 L449.2,138 L449.2,120 L485.2,120 L485.2,138 L701.2,138 L701.2,120 L737.2,120 L737.2,138 L953.2,138 L953.2,120 L989.2,120 L989.2,138 L1090.0,138" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="178" x2="1090" y2="178" stroke="#e2e2de"/>
+<text x="16" y="167" fill="#1d2433">btn3</text>
+<path d="M190.0,163.0 L193.6,163.0 L193.6,172 L233.2,172 L233.2,154 L449.2,154 L449.2,172 L485.2,172 L485.2,154 L701.2,154 L701.2,172 L737.2,172 L737.2,154 L953.2,154 L953.2,172 L989.2,172 L989.2,154 L1090.0,154" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="212" x2="1090" y2="212" stroke="#e2e2de"/>
+<text x="16" y="201" fill="#1d2433">tx</text>
+<path d="M190.0,197.0 L233.9,197.0 L233.9,188 L250.1,188 L250.1,206 L266.0,206 L266.0,188 L281.9,188 L281.9,206 L345.5,206 L345.5,188 L377.3,188 L377.3,206 L393.2,206 L393.2,188 L502.1,188 L502.1,206 L533.9,206 L533.9,188 L549.8,188 L549.8,206 L597.5,206 L597.5,188 L629.3,188 L629.3,206 L645.2,206 L645.2,188 L754.1,188 L754.1,206 L770.0,206 L770.0,188 L801.8,188 L801.8,206 L849.5,206 L849.5,188 L881.3,188 L881.3,206 L897.2,206 L897.2,188 L1006.1,188 L1006.1,206 L1053.8,206 L1053.8,188 L1069.7,188 L1069.7,206 L1090.0,206" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<line x1="190" y1="246" x2="1090" y2="246" stroke="#e2e2de"/>
+<text x="16" y="235" fill="#1d2433">led_red_n</text>
+<path d="M190.0,231.0 L233.9,231.0 L233.9,222 L250.1,222 L250.1,240 L266.0,240 L266.0,222 L281.9,222 L281.9,240 L345.5,240 L345.5,222 L377.3,222 L377.3,240 L393.2,240 L393.2,222 L502.1,222 L502.1,240 L533.9,240 L533.9,222 L549.8,222 L549.8,240 L597.5,240 L597.5,222 L629.3,222 L629.3,240 L645.2,240 L645.2,222 L754.1,222 L754.1,240 L770.0,240 L770.0,222 L801.8,222 L801.8,240 L849.5,240 L849.5,222 L881.3,222 L881.3,240 L897.2,240 L897.2,222 L1006.1,222 L1006.1,240 L1053.8,240 L1053.8,222 L1069.7,222 L1069.7,240 L1090.0,240" fill="none" stroke="#2f6fd6" stroke-width="1.6"/>
+<text x="190.0" y="264" text-anchor="middle" fill="#6b7280">0 ms</text>
+<text x="370.0" y="264" text-anchor="middle" fill="#6b7280">50 ms</text>
+<text x="550.0" y="264" text-anchor="middle" fill="#6b7280">100 ms</text>
+<text x="730.0" y="264" text-anchor="middle" fill="#6b7280">150 ms</text>
+<text x="910.0" y="264" text-anchor="middle" fill="#6b7280">200 ms</text>
+<text x="1090.0" y="264" text-anchor="middle" fill="#6b7280">250 ms</text>
+</svg>

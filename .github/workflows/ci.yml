@@ -1,0 +1,42 @@
+name: FPGA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  simulation:
+    name: Simuler et vérifier (GHDL)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Simuler chaque module, vérifier l'UART par assertions
+        run: docker run --rm -v "$PWD":/src -w /src ghdl/ghdl:ubuntu22-mcode bash tests/simuler.sh
+
+      - name: Tracer les chronogrammes
+        run: bash tests/chronogrammes.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chronogrammes
+          path: |
+            chronogrammes/
+            simulations/*.log
+
+  synthese:
+    name: Synthétiser pour l'iCE40 UP5K
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: YosysHQ/setup-oss-cad-suite@v3
+
+      - name: GHDL, Yosys, nextpnr, icepack
+        run: bash tests/synthetiser.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bitstreams
+          path: synthese/
