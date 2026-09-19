@@ -16,7 +16,9 @@ for dossier in "${MODULES[@]}"; do
   travail="$(mktemp -d)"
   # Le design seul : le banc de test n'est pas synthétisable.
   sources=$(ls "$dossier"/*.vhd | grep -v '_tb\.vhd$')
-  if ghdl -a --workdir="$travail" -fsynopsys $sources &&
+  # ghdl -i puis -m : GHDL ordonne lui-même les fichiers selon leurs dépendances.
+  if ghdl -i --workdir="$travail" -fsynopsys $sources &&
+     ghdl -m --workdir="$travail" -fsynopsys icebreaker > /dev/null &&
      yosys -q -m ghdl -p "ghdl --workdir=$travail -fsynopsys icebreaker; synth_ice40 -top icebreaker -json $travail/d.json" > "$SORTIE/$nom.yosys.log" 2>&1 &&
      nextpnr-ice40 -q --up5k --package sg48 --pcf "$dossier/broches.pcf" --pcf-allow-unconstrained \
        --json "$travail/d.json" --asc "$travail/d.asc" --report "$SORTIE/$nom.rapport.json" > "$SORTIE/$nom.nextpnr.log" 2>&1 &&
